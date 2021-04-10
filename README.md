@@ -5,6 +5,11 @@ This application takes multiple input files, optionally filters by event type(s)
 ## Installation
 
 Open your terminal and go to LogMerge/ directory.
+
+```bash
+cd /LogMerge
+```
+
 Type the command below to generate MakeFile for the project.
 
 ```bash
