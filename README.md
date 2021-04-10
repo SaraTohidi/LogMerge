@@ -9,12 +9,6 @@ Open your terminal and go to LogMerge/ directory.
 ```bash
 cd /LogMerge
 ```
-
-Type the command below to generate MakeFile for the project.
-
-```bash
-qmake "CONFIG+=LogMerge" LogMerge.pro
-```
 Next, type the command below:
 
 ```bash
