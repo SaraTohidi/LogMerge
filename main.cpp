@@ -99,6 +99,9 @@ bool checkFilterLines(string line,vector<string> filters)
  * 5. dir_name: name of the directory
  * 6. first_time_initialization: check box whether it is the first time reading the line
  * Output: updated line of each file */
+/* TODO:
+ * Opening all files once and read line of each file simultaneously till the end of the process and close all files once.
+*/
 vector<string> readNextLine(string pre_line, vector<string> filters, vector<string> file_lines, set<string> sorted_files, string dir_name, bool first_time_initialization){
     vector<string> updated_file_lines;
     int i = -1;
